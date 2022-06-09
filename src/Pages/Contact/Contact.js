@@ -31,7 +31,7 @@ export const Contact = () => {
     <section id="contact" className="my-12">
       <h2 className="text-2xl text-base-100 mb-4">Contact for me</h2>
 
-      <div className="p-6 bg-neutral w-full rounded-lg">
+      <div className="py-6 bg-neutral w-full rounded-lg">
         <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-3">
           <input
             required
@@ -55,7 +55,7 @@ export const Contact = () => {
             placeholder="Message"
             name="message"
           />
-          <div className="flex justify-between items-center">
+          <div className="md:flex justify-between items-center">
             <input
               className="btn btn-primary w-48"
               type="submit"

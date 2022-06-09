@@ -12,8 +12,8 @@ const HomePage = () => {
   return (
     <section id="home" className="max-w-screen-2xl mx-auto">
       <div className="w-11/12 header-bg mx-auto px-12 pt-16">
-        <div className="grid md:grid-cols-1 lg:grid-cols-3 gap-4">
-          <div className="sticky top-0 bg-neutral h-[75vh] rounded-lg">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
+          <div className="lg:sticky relative top-0 bg-neutral h-[75vh] rounded-lg">
             <div className="flex flex-col justify-center items-center mt-4">
               <div class="avatar">
                 <div class="w-24 rounded-full">
@@ -67,7 +67,7 @@ const HomePage = () => {
             </div>
           </div>
           <div className="col-span-2">
-            <div className="flex justify-center h-full items-start flex-col ml-4 mt-8">
+            <div className="flex justify-center h-full items-start flex-col ml-4 mt-16 mx-auto">
               <p className="text-base-100">HI MY NEW FRIEND!</p>
               <p className="text-base-100 text-3xl md:text-5xl lg:text-7xl font-bold">
                 Discover my <br /> Developing skill!
