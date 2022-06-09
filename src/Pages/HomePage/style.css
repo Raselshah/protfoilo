@@ -1,0 +1,13 @@
+.header-bg {
+  background-image: url("https://bslthemes.com/trueman/wp-content/uploads/2021/11/slide-1-scaled.jpg");
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.3);
+  background-blend-mode: overlay;
+  height: 80vh;
+  border-radius: 5px;
+}
+.das {
+  height: 1px;
+  border-bottom: dotted 2px #e1e1eb26;
+  width: 100%;
+}
